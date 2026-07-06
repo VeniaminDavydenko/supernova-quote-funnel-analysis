@@ -80,8 +80,26 @@ final price; 3,239 quotes (33%) abandon somewhere along the way.
 ### Drop-offs by Funnel Stage
 ![Drop-offs by funnel stage](visuals/chart_dropoff.png)
 
+Each bar is the number of applicants who quit at that stage of the nine-step
+form. The two highlighted stages are the story: **S2 Revenue (600 drop-offs)**
+is the single worst stage — it's the first sensitive money question, and it
+arrives before the applicant has invested much in the form. **S6 Contents
+(575)** is a close second, where the form shifts from basic facts about the
+business to detailed coverage questions. Notice the pattern around them:
+drop-off falls once applicants get past S2 (they've committed), then spikes
+again when the effort level jumps at S6. The easy stages in between — Years,
+Claims, Liability — each lose only ~200.
+
 ### Premium Captured vs Abandoned in the Funnel
 ![Premium captured vs abandoned](visuals/chart_value.png)
+
+This chart sizes the leak in dollars. The left bar is the premium the book
+actually captures today ($23.1M) — every quote that finished the form and got
+priced. The right bar is the estimated potential premium sitting in the 3,239
+abandoned quotes ($30.9M), valued at the average premium of comparable
+completed quotes. The abandoned side is *larger than the entire existing
+book* — meaning even a modest recovery rate on funnel drop-offs would move
+revenue more than any other lever in the data.
 
 ---
 
