@@ -104,7 +104,7 @@ the funnel problem, stated as money.
 
 Of the 5,492 quotes that reached a decision, **50.4% were rejected**. Parsing
 the rejection log showed the machinery: a **FUS fire-protection grade of 10
-(the worst) is an automatic decline** (all 743 such quotes were rejected), and
+(the worst) is an automatic decline** (all 749 such quotes were rejected), and
 every alert flag (hazardous materials, heavy equipment, alcohol) is a hard
 stop, not a warning. An integrity check confirmed zero rejections with no
 logged reason. One subtle finding set up the finals: quotes without a verified
@@ -160,8 +160,9 @@ same as getting a price: of the 6,578 who finish, 2,419 come back priced.
   over $2M in revenue, but only at the very end. The $2M rule shows up in 2,293
   rejection logs (83% of all rejections), and **about 35% of everyone who
   completes the form hits it.** In most of those logs it fires alongside other
-  rules (2,027 also carry a fire-protection grade, 681 of them the automatic
-  grade 10), and only 214 rejections list revenue as the only rule. So the cap
+  rules (2,027 also carry a fire-protection grade, 687 of them the automatic
+  grade 10), and only 19 rejections list revenue as the only rule; most of the
+  rest also carry a fire-protection grade or an industry-code decline. So the cap
   is not the sole cause of most rejections, but it is applied to a third of all
   finishers, silently, after they have done all the work. Reducing friction
   means asking revenue later; filtering ineligible firms means asking it first.
@@ -264,3 +265,9 @@ drop-offs would move revenue more than any other lever in the data.
   values and corrects two descriptions: the $2M cap appears in 83% of rejection
   logs but is rarely the only rule that fired, and 1,305 is the number of quotes
   from repeat emails, not the number of emails.
+- **Revision, October 2026.** A recount from the raw rejection logs corrected
+  three figures. 71 logs carry two fire-protection grades and the extraction
+  formula read only the first, so grade-10 quotes are 749 (not 743) and grade 10
+  plus the $2M rule is 687 (not 681). Revenue is the only logged rule in 19
+  rejections; the earlier 214 counted rejections with no fire-protection grade,
+  underwriting rule or alert, but most of those carry an industry-code decline.
